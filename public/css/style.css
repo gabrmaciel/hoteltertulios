@@ -1,0 +1,199 @@
+html, body{
+    height:100%;
+    overflow-x:hidden;
+}
+
+li{
+    list-style: none;
+}
+
+.container-py{
+    padding-top:96px;
+    padding-bottom:96px;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color:#565656;
+}
+
+.title-red{
+    color:#872723;
+}
+
+.title-subtitle{
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: rgba(85, 85, 85, 0.6);
+}
+
+.title-subtitle-red{
+    background-color: rgba(135, 39, 35, 0.6);
+}
+
+.navbar-icon{
+    max-width: 16px;
+}
+
+.font-secondary{
+    font-family: Merriweather;
+}
+
+.font-secondary-text{
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+.font-secondary-label{
+    font-size: 16px;
+    font-weight:700;
+}
+
+.navbar-span{
+    font-size: 13px
+}
+
+.banner{
+    width: 100%;
+    padding-bottom: 36%;
+    position:relative;
+}
+.banner .container-div{
+    position:relative;
+}
+
+.container-text-banner{
+    position:absolute;
+    bottom:16.67%;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.banner h3{
+    font-size:30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner p{
+    max-width: 600px;
+    font-size:17px;
+}
+
+
+.menu{
+    position:relative;
+    z-index: 1;
+    margin-bottom: -80px;
+    width:100%
+}
+
+.menu li{
+    float: left;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nosso-hotel-btn{
+    display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background-color:#872723;
+    width:280px;
+    height:56px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.nosso-hotel-link{
+    display: block;
+    margin: auto;
+    text-decoration: underline;
+    font-size:14px;
+    color: #444;
+}
+
+.servicos img{
+    float:left;
+    width: 64px;
+}
+
+.servicos li{
+    font-size:18px;
+}
+
+.servicos-icon{
+    float: left;
+    width:80px;
+}
+
+.servicos-text{
+    float: left;
+    width: calc(100% - 80px);
+}
+
+.servicos-text p{
+    font-size:13px
+}
+
+.localizacao img{
+    width:128px;
+}
+
+.fale-conosco{
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    background-image: url('../img/quarto3-back.png')
+}
+
+.fale-conosco .btn{
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #236e87;
+}
+
+.textarea{
+    max-height: 140px;
+}
+
+.rodape{
+    background-color: #1f1f1f
+}
+
+.rodape-title{
+    float:left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5a5a5a;
+    margin-bottom: 16px;
+}
+
+.rodape ul{
+    color:#c6c6c6
+}
+
+.rodape li{
+    font-size:17px;
+    line-height: 1.8;
+}
+
+.rodape .li-small{
+    font-size:15px;
+}
